@@ -1,0 +1,68 @@
+.hydro-tools-container {
+    background-color: #f8f9fa;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.hydro-tools-text {
+    background-color: #f8f9fa;
+    border: 2px solid #0a1826;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.box{
+    background-color: #f8f9fa;
+    border: 1px solid #3f474c;
+}
+
+
+.hydro-tool-title {
+    font-weight: bold;
+    font-size: 7rem;
+}
+
+.hydro-text-primary {
+    color: #007bff; /* Primary color */
+}
+
+.hydro-text-secondary {
+    color: #28a745; /* Secondary color */
+}
+
+
+.margin-10 {
+    margin-right: 5px;
+}
+
+
+/* HydroTools.css */
+
+.hydro-tools-container {
+    background-color: #f8f9fa;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.hydro-tools-text {
+    background-color: #f8f9fa;
+    border: 2px solid #28a745;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.hydro-tool-title {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #007bff; /* Primary color */
+    margin-bottom: 20px;
+}
+
+.hydro-text-primary {
+    color: #007bff; /* Primary color */
+}
+
+/* Additional styling... */
