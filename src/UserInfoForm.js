@@ -21,7 +21,7 @@ const UserInfoForm = ({ onFormSubmitted }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("https://rational-tools.onrender.com/submit-info", formData);
+      await axios.post("https://wqi-k23q.onrender.com/submit-info", formData);
       onFormSubmitted(); // Update App.js state
       navigate("/");     // Redirect to home page
     } catch (error) {
