@@ -33,7 +33,7 @@ const MlWqiCalculator = () => {
     };
 
     try {
-      const response = await axios.post('http://localhost:5000/predict', filteredData, {
+      const response = await axios.post('https://wqi-k23q.onrender.com/predict', filteredData, {
         headers: {
           'Content-Type': 'application/json'
         }
