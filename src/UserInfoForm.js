@@ -22,7 +22,7 @@ const UserInfoForm = ({ onFormSubmitted }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/submit-info", formData);
+      await axios.post("https://wqi-k23q.onrender.com/submit-info", formData);
       onFormSubmitted();
       navigate("/");
     } catch (error) {
